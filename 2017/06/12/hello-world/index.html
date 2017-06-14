@@ -99,7 +99,7 @@
 <meta property="og:url" content="http://yoursite.com/2017/06/12/hello-world/index.html">
 <meta property="og:site_name" content="Yao&#39;s Blog">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta property="og:updated_time" content="2017-06-12T14:04:49.000Z">
+<meta property="og:updated_time" content="2017-06-14T07:55:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
 <meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
@@ -348,7 +348,21 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><p><code>$ hexo deploy</code></p>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
+<p><div id="container"></div></p>
+<p><link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"></p>
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '', // 可选。默认为 location.href
+  owner: 'yaykids',
+  repo: 'gitment',
+  oauth: {
+    client_id: '85f663b52fcfa1d3a868',
+    client_secret: '2089d5d0cc2c3cafb4c3ba7f9832ec0cd0de9dfd',
+  },
+})
+gitment.render('container')
+</script>
       
     </div>
 
