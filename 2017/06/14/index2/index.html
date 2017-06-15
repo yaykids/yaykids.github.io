@@ -446,9 +446,21 @@
           
   <div class="comments" id="comments">
     
-  </div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+  var gitment = new Gitment({
+    
+    owner: 'yaykids',
+    repo: 'yaykids.github.io',
+    oauth: {
+      client_id: '85f663b52fcfa1d3a868',
+      client_secret: '2089d5d0cc2c3cafb4c3ba7f9832ec0cd0de9dfd',
+    },
+  })
+  gitment.render('comments')
+</script>
 
- 
 
         </div>
         
